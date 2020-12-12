@@ -43,11 +43,10 @@ header {
     text-decoration: none;
 }
 
- logo {
+ .logo {
     border-radius: 60%;
-    position: absolute;
-    top: 10px;
-    left: 20px;
+    margin-left: 20px;
+   
 }
 
 /* ----- header fin-------------- */
