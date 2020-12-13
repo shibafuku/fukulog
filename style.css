@@ -113,7 +113,46 @@ footer small {
 
 /* ----- トップページ fin-------------- */
 
-/* -----morning 松之助詳細ページstart-------------- */
+/*-----indexページ,reqestページ共有 start------------*/
+
+.index-reqest-top {
+  text-align: center;
+}
+
+.index-reqest-top h1 {
+  font-size: 45px;
+  margin-top: 2px;
+}
+
+.index-reqest-top p {
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+/*-----indexページ,reqestページ共有 fin------------*/
+
+
+/*-------各indexページ　start----------*/
+
+.grid-outer {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.grid-inner {
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grid-inner h2 p {
+margin-top: 0 auto;
+}
+
+
+
+/* -----yado以外の各詳細ページstart-------------- */
 
 .contents {
  text-align: center;
@@ -126,9 +165,9 @@ footer small {
  margin-top: 20px;
 }
 
-h2 {
- font-size: 13px;
+.store-infomation h2 {
  text-align: center;
+ font-size: 13px;
  margin-top: 50px;
 }
 
