@@ -146,6 +146,11 @@ footer small {
   text-align: center;
 }
 
+.grid-inner img {
+  max-width: 100%;
+  border-radius: 10%;
+}
+
 .grid-inner h2 p {
 margin-top: 0 auto;
 }
