@@ -120,12 +120,11 @@ footer small {
 
 .index-reqest-top h1 {
   font-size: 45px;
-  margin-top: 0px;
+  margin-bottom: auto;
 }
 
 .index-reqest-top p {
   font-size: 16px;
-  padding: 0px;
 }
 
 /*-----indexページ,reqestページ共有 fin------------*/
@@ -137,7 +136,7 @@ footer small {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- margin-top: 40px;
+ margin-top: 60px;
 }
 
 .grid-inner {
