@@ -154,10 +154,6 @@ footer small {
 margin-top: auto;
 }
 
-
-
-/* -----yado以外の各詳細ページstart-------------- */
-
 .contents {
  text-align: center;
  margin-top: 30px;
@@ -168,6 +164,9 @@ margin-top: auto;
  text-align: center;
  margin-top: 20px;
 }
+
+/* -----yado以外の各詳細ページstart-------------- */
+
 
 .store-infomation h2 {
  text-align: center;
@@ -187,8 +186,8 @@ table th{
  border: 1px solid #cccccc;
 }
 
-.table td {
- padding-left: 40px;
+.store-infomation table td {
+ padding-left: 25px;
 }
 
 .contentsbtn {
@@ -197,4 +196,4 @@ table th{
  margin-top: 40px;
 }
 
-/* -----morning 松之助詳細ページfin-------------- */
+/* -----yado以外の各詳細ページfin-------------- */
