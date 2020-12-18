@@ -171,12 +171,12 @@ margin-top: auto;
 
 .store-infomation h2 {
  text-align: center;
- font-size: 13px;
+ font-size: 15px;
  margin-top: 50px;
 }
 
 table {
- font-size: 10px;
+ font-size: 15px;
  margin: 0 auto;
 }
 
@@ -188,7 +188,7 @@ table th{
 }
 
 .table td {
- margin-left: 30px;
+ padding-left: 40px;
 }
 
 .contentsbtn {
