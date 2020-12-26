@@ -16,7 +16,11 @@
 	width: 20px;
 	height: 3px;
 	background-color: black;
-	margin: 3px;
+  margin: 3px;
+}
+
+#label1 {
+  margin-top: auto;
 }
  
 /*メニューのデザイン*/
