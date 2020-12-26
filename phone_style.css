@@ -6,7 +6,7 @@
     margin: 0 auto;
     padding: 0;
   }
-  
+
 #input {
   display: none;
 }
@@ -44,5 +44,18 @@
 	transform: translatex(0px);　/*通常値に戻す*/
 }
 
+
+.top-eyechatch {
+  background-image: url(images/sp_top.jpg);
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  position: relative;
+}
+
+ .image-vw {
+   width : 50vw;
+ }
+     
+ }
 
 }
