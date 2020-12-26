@@ -74,6 +74,7 @@ footer small {
  color: #000000;
  background-color: #ffffff;
  position: absolute;
+ top: 30px;
  left: 70px;
 }
 

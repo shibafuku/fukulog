@@ -12,7 +12,7 @@
   display: none;
 }
 
-.hamburg {
+.menu-sp {
   display: inline;
 }
 
@@ -20,7 +20,7 @@
   display: none;
 }
 
-.link {
+.link li {
    text-decoration: none;
    list-style: none;
    font-size: medium;
@@ -37,8 +37,11 @@
   text-align: right;
 }
 
-#label1 {
-  margin-top: auto;
+#hamburg {
+  position: absolute; 
+  top: 100px;
+  left: 40px;
+
 }
  
 /*メニューのデザイン*/
