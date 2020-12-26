@@ -149,7 +149,7 @@ footer small {
   border-radius: 10%;
 }
 
-.grid-inner h2 + p {
+.grid-inner h2 + p{
   margin: 20px 0; 
 }
 
@@ -174,7 +174,7 @@ footer small {
 }
 
 table {
- font-size: 15px;
+ font-size: 16px;
  margin: 0 auto;
 }
 
