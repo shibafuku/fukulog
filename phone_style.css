@@ -2,13 +2,17 @@
 {
 
   body {
-    width: 520px;
+    width: auto;
     margin: 0 auto;
     padding: 0;
   }
 
 .menu-pc {
   display: none;
+}
+
+.hamburg {
+  text-align: center;
 }
 
 #input {
