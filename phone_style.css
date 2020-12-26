@@ -1,2 +1,61 @@
-@charset "utf-8";
+@media screen and (max-width:520px)
+{
  
+#input {
+  display: none;
+}
+
+.line {
+  width: 20px;
+  height: 3px;
+  background-color: #000000;
+  margin: 3px;
+  }
+
+.link {
+   text-decoration: none;
+   list-style: none;
+  }
+
+  #content {
+    background-color: aqua;
+    width: 200px;
+    height: 100%;
+    transform: translateX(-200px);
+  }
+
+#input:checked ~ #content {
+  transform: translateX(0px);
+}
+
+
+#input{
+	display: none;
+}
+ 
+/*3本線を作る*/
+ 
+.line1,.line2,.line3{
+	width: 20px;
+	height: 3px;
+	background-color: black;
+	margin: 3px;
+}
+ 
+/*メニューのデザイン*/
+ 
+#content{
+	background-color: lightpink;
+	width: 200px;
+	height: 100%;
+	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
+}
+ 
+/*チェックが入ったら見せる*/
+ 
+#input:checked ~ #content {
+	transform: translatex(0px);　/*通常値に戻す*/
+}
+
+
+}

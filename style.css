@@ -111,22 +111,21 @@ footer small {
 
 /* ----- トップページ fin-------------- */
 
-/*-----indexページ,reqestページ共有 start------------*/
+/*-----indexページ,requestページ共有 start------------*/
 
-.index-reqest-top {
+.page-h1 {
   text-align: center;
 }
 
-.index-reqest-top h1 {
-  font-size: 45px;
-  margin-bottom: auto;
+.page-h1 h1 {
+  margin: 20px 0; 
 }
 
-.index-reqest-top p {
+.page-h1 p {
   font-size: 16px;
 }
 
-/*-----indexページ,reqestページ共有 fin------------*/
+/*-----indexページ,requestページ共有 fin------------*/
 
 
 /*-------各indexページ　start----------*/
@@ -150,8 +149,8 @@ footer small {
   border-radius: 10%;
 }
 
-.grid-inner h2 p {
-margin-top: auto;
+.grid-inner h2 + p {
+  margin: 20px 0; 
 }
 
 .contents {
@@ -160,7 +159,7 @@ margin-top: auto;
 }
 
 .contents p {
- font-size: 15px;
+ font-size: 16px;
  text-align: center;
  margin-top: 20px;
 }
@@ -193,7 +192,10 @@ table th{
 .contentsbtn {
  font-size: 15px;
  width: 200px;  
- margin-top: 40px;
+}
+
+.contentbtn-wrapper {
+  margin-top: 40px;
 }
 
 /* -----yado以外の各詳細ページfin-------------- */
