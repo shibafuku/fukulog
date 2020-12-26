@@ -1,6 +1,12 @@
 @media screen and (max-width:520px)
 {
- 
+
+  body {
+    width: 520px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
 #input {
   display: none;
 }
@@ -26,7 +32,7 @@
 /*メニューのデザイン*/
  
 #content{
-	background-color: lightpink;
+	background-color: #dcdcdc;
 	width: 200px;
 	height: 100%;
 	transform: translateX(-210px); /*左側の奥の奥に埋めておく*/
