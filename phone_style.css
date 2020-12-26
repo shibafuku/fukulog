@@ -7,6 +7,10 @@
     padding: 0;
   }
 
+.menu-pc {
+  display: none;
+}
+
 #input {
   display: none;
 }
