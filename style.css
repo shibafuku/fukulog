@@ -14,7 +14,7 @@ header {
  height: 170px;
  display: flex;
  justify-content: space-between;
- align-items: center;
+ align-items: right;
 }
 
 .global-nav {
@@ -205,3 +205,7 @@ table th{
 }
 
 /* -----yado以外の各詳細ページfin-------------- */
+
+body {
+  text-align: center;
+}
