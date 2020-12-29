@@ -209,3 +209,8 @@ table th{
 body {
   text-align: center;
 }
+
+header {
+  text-align: right;
+  z-index: 1;
+}
