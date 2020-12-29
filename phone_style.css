@@ -8,58 +8,6 @@
     text-align: center;
   }
 
-.menu-pc {
-  display: none;
-}
-
-.menu-sp {
-  display: inline;
-}
-
-#input {
-  display: none;
-}
-
-.link li {
-   text-decoration: none;
-   list-style: none;
-   font-size: medium;
-   text-align: left;
-  }
- 
-/*3本線を作る*/
- 
-.line1,.line2,.line3 {
-	width: 20px;
-	height: 3px;
-	background-color: black;
-  margin: 3px;
-  text-align: right;
-}
-
-#hamburg {
-  position: absolute; 
-  top: 150px;
-  left: 40px;
-
-}
- 
-/*メニューのデザイン*/
- 
-#content{
-	background-color: #dcdcdc;
-	width: 200px;
-	height: 100%;
-	transform: translateX(210px); /*右側の奥の奥に埋めておく*/
-}
- 
-/*チェックが入ったら見せる*/
- 
-#input:checked ~ #content {
-	transform: translatex(0px);　/*通常値に戻す*/
-}
-
-
 .top-eyechatch {
   background-image: url(images/sp_top.jpg);
 }
@@ -85,4 +33,8 @@
 
  .image-vw {
    width : 50vw;
+ }
+
+ .logo {
+   text-align: center;
  }
