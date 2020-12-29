@@ -4,7 +4,7 @@ body {
  width: 960px;
  margin: 0 auto;
  padding: 0;
- background-color: #ffffff;
+ background-color: #f8f9fa!important;
  color: #000000;
  line-height: 2;
     
@@ -12,9 +12,7 @@ body {
 /* -----header start-------------- */
 header {
  height: 170px;
- display: flex;
  justify-content: space-between;
- align-items: right;
 }
 
 .global-nav {
@@ -210,8 +208,4 @@ table th{
 
 body {
   text-align: center;
-}
-
-header {
-  z-index: 1;
 }
