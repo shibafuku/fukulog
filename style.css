@@ -11,7 +11,7 @@ body {
 }
 /* -----header start-------------- */
 header {
- height: 170px;
+ height: 100px;
  justify-content: space-between;
 }
 
@@ -42,6 +42,7 @@ header {
 .logo {
  border-radius: 60%;
  margin-left: 20px; 
+ margin-right: 250px;
 }
 
 .menu-sp {
