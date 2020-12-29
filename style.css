@@ -11,7 +11,7 @@ body {
 }
 /* -----header start-------------- */
 header {
- height: 100px;
+ height: auto;
  justify-content: space-between;
 }
 
