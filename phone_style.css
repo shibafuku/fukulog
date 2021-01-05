@@ -30,9 +30,34 @@
   left: 15px;
  }
 
-
  .image-vw {
    width : 50vw;
  }
+
+/*------各種indexページSP------*/
+
+.grid-outer {
+  display: block;
+  text-align: center;
+ }
+
+
+ .grid-inner {
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.grid-inner img {
+  width: 70%;
+  height: 70%;
+  border-radius: 10%;
+}
+
+.grid-inner h2 + p {
+  margin-top: 15px;
+
+}
+
 
 }
