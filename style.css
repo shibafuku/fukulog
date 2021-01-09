@@ -145,7 +145,7 @@ footer small {
 }
 
 .grid-inner h2 + p{
-  margin: 20px 0; 
+  margin: 0 0 20px 0; 
 }
 
 /* -----yado以外の各詳細ページstart-------------- */
