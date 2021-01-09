@@ -72,5 +72,12 @@
 }
 
 
+.contents h1 {
+  font-size: 25px;
+}
+
+.store-infomation table td {
+  text-align: left;
+ }
 
 }

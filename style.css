@@ -122,6 +122,10 @@ footer small {
 
 /*-----indexページ,requestページ共有 fin------------*/
 
+.request-img {
+  background-image: url(images/request.jpg);
+}
+
 
 /*-------各indexページ　start----------*/
 
