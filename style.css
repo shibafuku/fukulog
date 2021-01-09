@@ -160,6 +160,8 @@ footer small {
   margin: 20px 0; 
 }
 
+/* -----yado以外の各詳細ページstart-------------- */
+
 .contents {
  text-align: center;
  margin-top: 30px;
@@ -171,7 +173,7 @@ footer small {
  margin-top: 20px;
 }
 
-/* -----yado以外の各詳細ページstart-------------- */
+
 
 
 .store-infomation h2 {

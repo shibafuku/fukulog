@@ -8,6 +8,11 @@
     text-align: center;
   }
 
+  .logo {
+    border-radius: 60%;
+    margin-left: 80px; 
+   }
+
 .top-eyechatch {
   background-image: url(images/sp_top.jpg);
 }
@@ -37,7 +42,9 @@
 /*------各種indexページSP------*/
 
 .grid-outer {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
  }
 
