@@ -122,10 +122,6 @@ footer small {
 
 /*-----indexページ,requestページ共有 fin------------*/
 
-.request-img {
-  background-image: url(images/request.jpg);
-}
-
 
 /*-------各indexページ　start----------*/
 
@@ -213,4 +209,12 @@ table th{
 
 body {
   text-align: center;
+}
+
+.pc_only {
+  display: block !important;
+}
+
+.sp_only {
+display: none !important;
 }

@@ -72,6 +72,10 @@
 }
 
 
+.contents img {
+  width: auto;
+}
+
 .contents h1 {
   font-size: 25px;
 }
@@ -79,5 +83,14 @@
 .store-infomation table td {
   text-align: left;
  }
+
+ .pc_only {
+  display: none !important;
+}
+
+.sp_only {
+display: block !important;
+}
+
 
 }
