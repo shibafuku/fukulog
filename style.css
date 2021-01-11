@@ -184,6 +184,7 @@ table th{
 
 .store-infomation table td {
  padding-left: 25px;
+ text-align: left;
 }
 
 .btn {
