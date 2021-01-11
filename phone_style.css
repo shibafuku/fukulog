@@ -73,7 +73,8 @@
 
 
 .contents img {
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 .contents h1 {
@@ -90,6 +91,8 @@
 
 .sp_only {
 display: block !important;
+width: 100%;
+height: auto;
 }
 
 
