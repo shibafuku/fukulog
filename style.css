@@ -163,7 +163,7 @@ footer small {
 
 
 
-.store-infomation h2 {
+.store-information h2 {
  text-align: center;
  font-size: 16px;
  margin-top: 50px;
@@ -181,7 +181,7 @@ table th{
  border: 1px solid #cccccc;
 }
 
-.store-infomation table td {
+.store-information table td {
  padding-left: 25px;
  text-align: left;
 }

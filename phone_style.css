@@ -9,7 +9,7 @@
   }
 
   .logo {
-    border-radius: 60%;
+    margin-right: 0;
     margin-left: 150px; 
    }
 
@@ -81,7 +81,7 @@
   font-size: 25px;
 }
 
-.store-infomation table td {
+.store-information table td {
   text-align: left;
  }
 
