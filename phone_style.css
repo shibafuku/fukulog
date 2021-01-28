@@ -81,6 +81,10 @@
   font-size: 25px;
 }
 
+.contents p {
+  padding: 10px;
+}
+
 .store-information table td {
   text-align: left;
  }
@@ -95,5 +99,8 @@ width: 100%;
 height: auto;
 }
 
+br.sp_only {
+  display: block;
+}
 
 }
