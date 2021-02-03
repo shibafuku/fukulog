@@ -30,7 +30,7 @@ header {
 .logo {
  border-radius: 60%;
  margin-left: 20px; 
- margin-right: 250px;
+ margin-right: 400px;
 }
 
 .menu-sp {
@@ -129,7 +129,7 @@ footer small {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- margin-top: 60px;
+ margin-top: 30px;
 }
 
 .grid-inner {
@@ -144,11 +144,15 @@ footer small {
   border-radius: 10%;
 }
 
+.grid-inner h2 {
+  margin-top: 5px;
+}
+
 .grid-inner h2 + p{
   margin: 0 0 20px 0; 
 }
 
-/* -----yado以外の各詳細ページstart-------------- */
+/* -----各詳細ページstart-------------- */
 
 .contents {
  text-align: center;
