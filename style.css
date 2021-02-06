@@ -27,22 +27,10 @@ header {
  list-style: none;
 }
 
-.btn {
- background-color: #F4CDCD;
- color: #707070;
- font-size: 20px;
- width: 100px;
- display: block;
- margin: 25px auto;
- text-align: center;
- border-radius: 5px;
- text-decoration: none;
-}
-
 .logo {
  border-radius: 60%;
  margin-left: 20px; 
- margin-right: 250px;
+ margin-right: 400px;
 }
 
 .menu-sp {
@@ -61,7 +49,7 @@ footer {
 }
 
 footer small {
- font-size: 10px;
+ font-size: 12px;
 }
 
 /* ----- footer fin-------------- */
@@ -141,7 +129,7 @@ footer small {
  display: flex;
  justify-content: space-between;
  flex-wrap: wrap;
- margin-top: 60px;
+ margin-top: 30px;
 }
 
 .grid-inner {
@@ -156,9 +144,16 @@ footer small {
   border-radius: 10%;
 }
 
-.grid-inner h2 + p{
-  margin: 20px 0; 
+.grid-inner h2 {
+  margin-top: 5px;
+  font-size: 1.8rem;
 }
+
+.grid-inner h2 + p{
+  margin: 0 0 20px 0; 
+}
+
+/* -----各詳細ページstart-------------- */
 
 .contents {
  text-align: center;
@@ -167,14 +162,14 @@ footer small {
 
 .contents p {
  font-size: 16px;
- text-align: center;
+ text-align: left;
  margin-top: 20px;
+ padding: 20px;
 }
 
-/* -----yado以外の各詳細ページstart-------------- */
 
 
-.store-infomation h2 {
+.store-information h2 {
  text-align: center;
  font-size: 16px;
  margin-top: 50px;
@@ -192,9 +187,20 @@ table th{
  border: 1px solid #cccccc;
 }
 
-.store-infomation table td {
+.store-information table td {
  padding-left: 25px;
+ text-align: left;
 }
+
+.btn {
+  background-color: #F4CDCD;
+  color: #707070;
+  display: block;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+ }
 
 .contentsbtn {
  font-size: 15px;
@@ -210,3 +216,12 @@ table th{
 body {
   text-align: center;
 }
+
+.pc_only {
+  display: block !important;
+}
+
+.sp_only {
+display: none !important;
+}
+

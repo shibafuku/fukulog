@@ -8,6 +8,11 @@
     text-align: center;
   }
 
+  .logo {
+    margin-left: 70px;
+    margin-right: 0;
+   }
+
 .top-eyechatch {
   background-image: url(images/sp_top.jpg);
 }
@@ -37,13 +42,14 @@
 /*------各種indexページSP------*/
 
 .grid-outer {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
  }
 
-
  .grid-inner {
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -51,17 +57,50 @@
   width: 70%;
   height: 70%;
   border-radius: 10%;
-  margin-top: 15px;
-  text-align: center;
-}
-
-.grid-inner p {
-  margin-top: 0;
-  font-size: medium;
+  margin-top: 30px;
 }
 
 .grid-inner h2 {
-  font-size: x-large;
+  font-size: 24px;
+  margin-top: 2px;
+}
+
+.grid-inner p {
+  margin-top: 8px;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+
+.contents img {
+  width: 100%;
+  height: auto;
+}
+
+.contents h1 {
+  font-size: 25px;
+}
+
+.contents p {
+  padding: 10px;
+}
+
+.store-information table td {
+  text-align: left;
+ }
+
+ .pc_only {
+  display: none !important;
+}
+
+.sp_only {
+display: block !important;
+width: 100%;
+height: auto;
+}
+
+br.sp_only {
+  display: block;
 }
 
 }
