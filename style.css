@@ -37,6 +37,10 @@ header {
   display: none;
 }
 
+.nav-link {
+  font-family: 'Shippori Mincho', serif;
+}
+
 
 /* ----- header fin-------------- */
 
@@ -60,19 +64,20 @@ footer small {
  font-size: 80px;
  color: #000000;
  background-color: #ffffff;
+ font-family: 'Shippori Mincho', serif;
  position: absolute;
  top: 30px;
  left: 70px;
 }
 
 .top-eyechatch p {
- font-size: 25px;
+ font-size: 20px;
  color: #000000;
  background-color: #ffffff;
  position: absolute; 
- top: 250px;
+ top: 220px;
  left: 70px;
-
+ text-align: left;
 }
 
 .top-eyechatch {
@@ -114,11 +119,13 @@ footer small {
 
 .page-h1 h1 {
   margin: 20px 0; 
+  font-family: 'Shippori Mincho', serif;
 }
 
 .page-h1 p {
   font-size: 16px;
 }
+
 
 /*-----indexページ,requestページ共有 fin------------*/
 
@@ -127,7 +134,7 @@ footer small {
 
 .grid-outer {
  display: flex;
- column-gap: 10px;
+ column-gap: 40px;
  flex-wrap: wrap;
  margin-top: 30px;
 }
@@ -159,6 +166,10 @@ footer small {
  text-align: center;
  margin-top: 30px;
 }
+
+.shop-place {
+  font-size: 20px;
+  }
 
 .contents p {
  font-size: 16px;
