@@ -109,6 +109,13 @@ footer small {
  margin-top: 35px;
 }
 
+.new {
+margin-top: 50px;
+}
+
+.new_shop {
+  font-size: 15px;
+}
 /* ----- トップページ fin-------------- */
 
 /*-----indexページ,requestページ共有 start------------*/
