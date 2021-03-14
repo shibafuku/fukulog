@@ -31,7 +31,6 @@ header {
  border-radius: 60%;
  margin-left: 20px; 
  margin-right: 400px;
- transition : all 0.5s ease 0s;
 }
 
 .menu-sp {
@@ -98,14 +97,13 @@ width: 30%;
 
 .profile-photo img {
  border-radius: 50%;
- transition : all 0.5s ease 0s;
 }
 
 .profile-photo {
  text-align: center;
  font-size: 20px;
  margin-top: 80px;
- transition : all 0.5s ease 0s;
+ transition : all 1s ease 1s;
     
 }
 
